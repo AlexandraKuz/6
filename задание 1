@@ -1,0 +1,4 @@
+L = [4, 6, 9, 7]
+
+print(sum(L[::2]) * L[-1] if L else 0)
+print(sum(L[::2])+L[-1] if L else 0)
